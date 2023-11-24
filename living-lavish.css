@@ -1,0 +1,165 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.announcement
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.header
+{
+  height: 10vh;
+  width: 40%;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-header
+{
+  order: -1;
+}
+
+.right-header
+{
+  order: 1;
+}
+
+.logo-container
+{
+  height: 10vh;
+  width: 20%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo
+{
+  width: 100%;
+  height: 8vh;
+  cursor: pointer;
+}
+
+.banner
+{
+    height: 10vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+}
+
+.header-button
+{
+    font-size: 15px;
+    width: 100%;
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+
+
+
+.sidebar {
+    width: 15%;
+    background-color: #000000;
+    height:100vh;
+    color: #f0f0f0;
+    text-align: center;
+    overflow-y: auto;
+    outline-style:solid;
+    outline-color: #000000;
+    margin: 3px;
+    font-size: 12px;
+    overflow-y: auto;
+  }
+
+
+
+
+  .main
+{
+  display: flex;
+}
+
+
+
+
+.left-sidebar {
+    order: -1; /* Move left sidebar to the left */
+  }
+
+  .right-sidebar {
+    order: 1;
+    
+  }
+
+  .center-field
+  {
+    flex: 1;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .center-bar
+  {
+    background-color: grey;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+
+  .search-bar
+  {
+    background-color: rgb(255, 255, 255);
+    outline-color: rgb(39, 39, 39);
+    border-radius: 100000px;
+    outline-style: solid;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 4vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer
+  {
+    
+    height: 10vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
